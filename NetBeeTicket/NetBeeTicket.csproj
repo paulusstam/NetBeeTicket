@@ -197,6 +197,14 @@
     <Compile Include="Migrations\201706241344334_UserModel.Designer.cs">
       <DependentUpon>201706241344334_UserModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706241357582_AddIsSubscribed.cs" />
+    <Compile Include="Migrations\201706241357582_AddIsSubscribed.Designer.cs">
+      <DependentUpon>201706241357582_AddIsSubscribed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706241410450_addSubscriptionType.cs" />
+    <Compile Include="Migrations\201706241410450_addSubscriptionType.Designer.cs">
+      <DependentUpon>201706241410450_addSubscriptionType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -296,6 +304,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706241344334_UserModel.resx">
       <DependentUpon>201706241344334_UserModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706241357582_AddIsSubscribed.resx">
+      <DependentUpon>201706241357582_AddIsSubscribed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706241410450_addSubscriptionType.resx">
+      <DependentUpon>201706241410450_addSubscriptionType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

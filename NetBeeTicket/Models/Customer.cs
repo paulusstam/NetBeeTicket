@@ -10,5 +10,8 @@ namespace NetBeeTicket.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
+        public bool IsSubscribed { get; set; }
+        public SubscriptionType SubscriptionType { get; set; }
+        public byte SubscriptionTypeId { get; set; }
     }
 }
