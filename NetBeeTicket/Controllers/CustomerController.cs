@@ -17,8 +17,10 @@ namespace NetBeeTicket.Controllers
 
         public ActionResult Index()
         {
-          
-            return View();
+            Customer db = new Customer();
+            List<Customer> model = db.Customer.ToList();
+            ViewBag.Message = "This view is loaded from database!";
+            return View(model);
             
         }
 
