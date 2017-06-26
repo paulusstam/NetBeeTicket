@@ -187,6 +187,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SubscriptionController.cs" />
@@ -204,6 +205,14 @@
     <Compile Include="Migrations\201706241410450_addSubscriptionType.cs" />
     <Compile Include="Migrations\201706241410450_addSubscriptionType.Designer.cs">
       <DependentUpon>201706241410450_addSubscriptionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706241424018_PopulateSubscriptionType.cs" />
+    <Compile Include="Migrations\201706241424018_PopulateSubscriptionType.Designer.cs">
+      <DependentUpon>201706241424018_PopulateSubscriptionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706241446266_annotationsInCustomer.cs" />
+    <Compile Include="Migrations\201706241446266_annotationsInCustomer.Designer.cs">
+      <DependentUpon>201706241446266_annotationsInCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -287,6 +296,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Customer\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -310,6 +321,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706241410450_addSubscriptionType.resx">
       <DependentUpon>201706241410450_addSubscriptionType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706241424018_PopulateSubscriptionType.resx">
+      <DependentUpon>201706241424018_PopulateSubscriptionType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706241446266_annotationsInCustomer.resx">
+      <DependentUpon>201706241446266_annotationsInCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

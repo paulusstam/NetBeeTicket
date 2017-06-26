@@ -9,8 +9,9 @@ namespace NetBeeTicket.Controllers
     public class SubscriptionController : Controller
     {
         // GET: Subscription
-        public ActionResult Index()
+        public ViewResult Index()
         {
+           
             return View();
         }
     }
